@@ -2,7 +2,7 @@ import javax.swing.*;
 
 public class BankAccountDriver {
     public static void main(String[] args) {
-        BankAccount bankAccount = new BankAccount("1997-7991", 1000000.99, new Person("Jack ODonoghue"));
+        BankAccount bankAccount = new BankAccount("1997-7991", 1000000.99, new Person(JOptionPane.showInputDialog("Enter Name: ")));
 
         
 
